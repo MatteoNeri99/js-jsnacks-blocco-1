@@ -7,13 +7,13 @@ let arrayCasuali=[]
 
 for (i=0; i<N; i++){
 
-    let arrayCasuali=[numeriCasuali]
-    
+    let arrayCasuali=[]
+
     for (index=0; index<10; index++){
-        let numeriCasuali=Math.floor(Math.random()* 100)+1;
+        let numeriCasuali=Number.parseInt(Math.floor(Math.random()* 100)+1,10 );
+        arrayCasuali.push(numeriCasuali)
     }
    
-
+console.log(arrayCasuali)
 }
 
-console.log(arrayCasuali)
